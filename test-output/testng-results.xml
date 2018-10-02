@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75018" started-at="2018-09-29T11:54:32Z" finished-at="2018-09-29T11:55:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75018" started-at="2018-09-29T11:54:32Z" finished-at="2018-09-29T11:55:47Z">
+      <class name="amazon_shopping.TestCases">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:amazon_shopping.TestCases@12108b5]" name="startReport" is-config="true" duration-ms="171" started-at="2018-09-29T11:54:32Z" finished-at="2018-09-29T11:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="before(java.lang.reflect.Method)[pri:0, instance:amazon_shopping.TestCases@12108b5]" name="before" is-config="true" duration-ms="10521" started-at="2018-09-29T11:54:32Z" finished-at="2018-09-29T11:54:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void amazon_shopping.TestCases.Test1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:amazon_shopping.TestCases@12108b5]" name="Test1" duration-ms="13223" started-at="2018-09-29T11:54:43Z" finished-at="2018-09-29T11:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="before(java.lang.reflect.Method)[pri:0, instance:amazon_shopping.TestCases@12108b5]" name="before" is-config="true" duration-ms="8534" started-at="2018-09-29T11:54:56Z" finished-at="2018-09-29T11:55:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void amazon_shopping.TestCases.Test2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:amazon_shopping.TestCases@12108b5]" name="Test2" duration-ms="12060" started-at="2018-09-29T11:55:04Z" finished-at="2018-09-29T11:55:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="before(java.lang.reflect.Method)[pri:0, instance:amazon_shopping.TestCases@12108b5]" name="before" is-config="true" duration-ms="9258" started-at="2018-09-29T11:55:17Z" finished-at="2018-09-29T11:55:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void amazon_shopping.TestCases.Test3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:amazon_shopping.TestCases@12108b5]" name="Test3" duration-ms="20927" started-at="2018-09-29T11:55:26Z" depends-on-methods="amazon_shopping.TestCases.Test1" finished-at="2018-09-29T11:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:amazon_shopping.TestCases@12108b5]" name="endReport" is-config="true" duration-ms="281" started-at="2018-09-29T11:55:47Z" finished-at="2018-09-29T11:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- amazon_shopping.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
