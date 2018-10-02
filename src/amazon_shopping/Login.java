@@ -13,6 +13,7 @@ public class Login {
 		String Password = ReadExcel.getValidPassword();
 		driver.findElement(By.xpath("//span[contains(text(), 'Hello. Sign in')]")).click();
 		CommonFunctions.waitForElement(driver, By.xpath("//input[@type='email']")).sendKeys(email);
+		System.out.println(email);
 	    driver.findElement(By.xpath("//input[@id ='continue']")).click();
 	    driver.findElement(By.xpath("//input[@type ='password']")).sendKeys(Password);
 	    driver.findElement(By.xpath("//input[@id='signInSubmit']")).click();
