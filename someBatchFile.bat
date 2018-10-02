@@ -1,0 +1,2 @@
+java -cp "%CD%\bin;C:\Users\khodk\Desktop\Drivrers/*;C:\Users\khodk\Desktop\Drivrers\libs/*;C:\Users\khodk\Downloads\extentreports-java-2.41.2\extentreports-java-2.41.2\lib/*" amazon_shopping.Amazon_Driver_Page
+pause
