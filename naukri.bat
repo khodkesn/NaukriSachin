@@ -1,0 +1,1 @@
+start javaw -jar naukri.jar
